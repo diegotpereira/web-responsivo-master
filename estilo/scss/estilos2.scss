@@ -1,0 +1,25 @@
+// Mobile-first Media Query Mixin
+@mixin paraTelasGrandes ($media) {
+    @media (min-width: $media/16+em) {
+        @content
+    }
+}
+
+body {
+    font: 16px/1.4 Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    @include paraTelasGrandes(640) {
+        font-size: 20px;
+    }
+}
+
+h1 {
+    font-size: 2.434em;
+}
+
+h2 {
+    font-size: 1.618em;
+}
+
+h3 {
+    font-size: 1.517em;
+}

@@ -1,0 +1,16 @@
+body {
+  font: 16px/1.4 Open Sans, Arial, "Helvetica Neue", Helvetica, sans-serif; }
+  @media (min-width: 40em) {
+    body {
+      font-size: 20px; } }
+
+h1 {
+  font-size: 2.434em; }
+
+h2 {
+  font-size: 1.618em; }
+
+h3 {
+  font-size: 1.517em; }
+
+/*# sourceMappingURL=estilos2.css.map */
